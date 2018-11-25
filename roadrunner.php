@@ -15,3 +15,12 @@ while ($req = $psr7->acceptRequest()) {
         $psr7->getWorker()->error((string)$e);
     }
 }
+
+/*.rr.yml:
+http:
+  address: :1080
+  workers:
+    command: "php roadrunner.php"
+    pool:
+      numWorkers: 1*/
+// ./rr serve -v
