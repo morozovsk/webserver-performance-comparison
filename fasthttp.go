@@ -27,5 +27,5 @@ func main() {
 }
 
 func requestHandler(ctx *fasthttp.RequestCtx) {
-	fmt.Fprintf(ctx, "Hello, world!")
+	fmt.Fprintf(ctx, "hello world")
 }
